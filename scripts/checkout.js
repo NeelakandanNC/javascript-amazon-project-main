@@ -29,9 +29,9 @@ deliveryOptions.forEach((option) => {
 
 });
 
-    const today = dayjs();
-    const deliveryDate = today.add(deliveryOption.deliveryDays, 'days');
-    const DateString = deliveryDate.format('dddd, MMMM D');
+  const today = dayjs();
+  const deliveryDate = today.add(deliveryOption.deliveryDays, 'days');
+  const DateString = deliveryDate.format('dddd, MMMM D');
 
 
 
